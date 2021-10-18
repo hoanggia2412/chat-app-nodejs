@@ -1,7 +1,7 @@
 const path = require('path')
 const express = require('express')
 const app = express()
-const port = process.env.port
+const port = process.env.PORT
 const publicDirectoryPath = path.join(__dirname,'../public')
 const Filter =  require('bad-words')
 const { generateMessages, generateLocationMessages } = require('./utils/messages')
